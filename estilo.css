@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul{
+    height: 80px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    color: radial-gradient(circle, yellow 21%, rgb(195, 157, 6) 57%, rgb(0, 0, 0) 86%);
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 70;
+    line-height: 26.4px; 
+}
+
+.menu{
+    color:greenyellow;
+    background-color: rgb(202, 0, 0);
+}
+
+#section01{
+    background-color: rgb(157, 206, 248);
+}
+
+#section02{
+    background-color: rgb(98, 182, 255);
+}
+
+#section03{
+    background-color: rgb(66, 165, 252);
+}
+
+#section04{
+    background-color: rgb(10, 140, 253);
+}
+
+section{
+    height: 80vh;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 70;
+    line-height: 26.4px; 
+}
+
+li {
+    display: inline-block;
+    background: transparent url("logout-px.png") no-repeat right center;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white;
+    cursor: pointer; 
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
